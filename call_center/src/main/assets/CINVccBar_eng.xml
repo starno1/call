@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<CINVCCBAR ver="1.0.0">
+  <Error><!--level 0:一般性错误,可以忽略 1:错误,需要发送给CRM 2:严重错误,自己提示-->
+     <item code="2100" level="0" description="message not defined"/>
+	 <item code="2101" level="2" description="parameter error"/>
+	 <item code="2102" level="2" description="send message failure"/>
+	 <item code="2110" level="2" description="agent not exist"/>
+	 <item code="2111" level="2" description="agent unusefull temporary"/>
+	 <item code="2112" level="2" description="wrong agent password"/>
+	 <item code="2113" level="2" description="agent password uneffective"/>
+	 <item code="2114" level="2" description="agent password overdue"/>
+	 <item code="2115" level="2" description="agent locked"/>
+	 <item code="2116" level="2" description="agent timestamp mismatching"/>
+	 <item code="2117" level="2" description="agent'd device is mismatching with binded device"/>
+	 <item code="2118" level="2" description="agent'd device is used by other"/>
+	 <item code="2119" level="1" description="agent signined"/>
+	 <item code="2120" level="2" description="agent can't be replaced"/>
+	 <item code="2121" level="1" description="agent have not been signined"/>
+	 <item code="2122" level="1" description="agent busy"/>
+	 <item code="2123" level="2" description="signing failuer:this agent is called by other"/>
+	 <item code="2124" level="2" description="signing failuer:this agent is wrapup by other"/>
+	 <item code="2125" level="1" description="agent not idle"/>
+	 <item code="2126" level="1" description="agent not connected"/>
+	 <item code="2130" level="2" description="opponent agent not exist"/>
+	 <item code="2131" level="2" description="opponent agent unusefull temporary"/>
+	 <item code="2132" level="2" description="opponent agent locked"/>
+	 <item code="2133" level="2" description="opponent agent's device not set"/>
+	 <item code="2134" level="1" description="opponent agent not signin"/>
+	 <item code="2135" level="1" description="opponent agent busy"/>
+	 <item code="2136" level="1" description="opponent agent calling"/>
+	 <item code="2137" level="1" description="opponent agent wrapup"/>
+	 <item code="2138" level="1" description="opponent agent idle"/>
+	 <item code="2140" level="1" description="agent'device calling"/>
+	 <item code="2141" level="2" description="device not set IVR service"/>
+	 <item code="2143" level="2" description="signined agent count over limit"/>
+	 <item code="2300" level="2" description="monitor login failure for wrong password"/>
+
+	 <!--CINNGCCA :4000-4299-->
+     <item code="4000" level="2" description="create AClass failuer!"/>
+     <item code="4001" level="2" description="CTI Interface address wrong or CTI Interface server not startup"/> 
+     <item code="4002" level="2" description="CTI server address wrong or CTI server server not startup!"/>  
+     <item code="4003" level="2" description="invoke Initial failure in CTI Interface"/>
+     <item code="4004" level="2" description="login cti failure,be sure cti server is ok and congfiguration is right"/>
+     <item code="4005" level="2" description="agent disconnect temporary cause by network,it will be reconnect after ten seconds"/> 
+     <item code="4006" level="2" description="agent reconnecting ..."/>                  
+     <item code="4007" level="0" description="reconnected success! the agent is already ok"/>    
+     <item code="4008" level="2" description="agent is signout from cti cause of network,please get help for administrator"/>        	 
+     <item code="4009" level="2" description="agent is signout by heartbeat checking"/>        	 
+	 <item code="4010" level="1" description="phoneType mismatch with server's,using server's setting"/>        	 
+
+	 <!--CINVCCBAR :4300-4599-->
+     <item code="4300" level="2" description="CINNGCCA not register"/> 
+     <item code="4301" level="2" description="PA not register"/> 
+     <item code="4302" level="2" description="CINMonitor not register"/>  
+     <item code="4303" level="2" description="disconnect from cti,please get help for administrator"/> 
+     <item code="4305" level="2" description="agent replaced by other"/>    
+     <item code="4309" level="2" description="sipphone register failure"/>    
+     <item code="4310" level="2" description="please initial the ocx"/>    
+     <item code="4311" level="2" description="method disanble,can't execute"/>    
+     <item code="4312" level="2" description="target number can't be empty"/>    
+     <item code="4313" level="2" description="target number unvalidated!"/>    
+     <item code="4314" level="2" description="target number can't be more then 64 character"/>    
+	 
+
+     <item code="4360" level="0" description="sipphone regsitering..."/>   
+     <item code="4361" level="0" description="sipphone regsitered success"/>         
+     <item code="4362" level="0" description="checking agent card..."/>     
+     <item code="4363" level="2" description="ageng card not checked"/>     
+     <item code="4364" level="1" description="ftp config wrong"/>   
+    
+     <item code="4400" level="0" description="agent signin success"/>    
+     <item code="4401" level="2" description="agent signin failure"/>       
+     <item code="4402" level="0" description="agent signout success"/>         
+     <item code="4403" level="0" description="agent signout failure"/>                     
+     <item code="4404" level="2" description="agent force signout"/>                    
+     <item code="4405" level="2" description="agent locked,please contact with monitor agent"/>    
+     <item code="4407" level="1" description="sigining to cti server..."/>            
+     <item code="4408" level="0" description="logining to monitor server..."/>        
+     <item code="4409" level="0" description="login monitor server success"/>            
+     <item code="4410" level="0" description="cinvccbar initial success"/>    
+     <item code="4411" level="2" description="cinvccbar initial failure"/>   
+     <item code="4412" level="0" description="sigining to backup cti server..."/>   
+     <item code="4413" level="0" description="logining to backup monitor server..."/>  
+     <item code="4414" level="2" description="agent substatus report"/>   	 
+	 
+    
+     <item code="4450" level="0" description="agent intercepted"/>       
+     <item code="4451" level="1" description="have no retrieved line"/>      
+     <item code="4452" level="1" description="makeout must be use in busy"/>      
+     <item code="4453" level="1" description="can't transfer out of call..."/>                  
+     <item code="4454" level="1" description="can only be executed in tow line"/>    
+     <item code="4455" level="1" description="the code must be from 0 to 15 in senddtmf"/>    
+     <item code="4456" level="1" description="user have been out of call"/>                  
+     <item code="4457" level="1" description="hurry! all agents are busy"/> 
+     <item code="4458" level="1" description="mute can only be execute in call"/>  	 
+	 <item code="4459" level="2" description="yealink phone pickup failure in client type"/>  	
+     <item code="4460" level="1" description="the master agent can't be disconnect in conferece or consult scene"/>  	 		 
+	 
+	 
+	 <!--CINMonitor :4600-4699-->
+     <item code="4600" level="2" description="create M class failure"/>                       
+     <item code="4601" level="2" description="Initail to Monitor Interface failure"/> 
+     <item code="4602" level="2" description="Monitor server  can't be use"/>            
+     <item code="4603" level="2" description="Monitor Interface  can't be use"/>
+     <item code="4604" level="2" description="login in Monitor server failure"/>               
+     <item code="4605" level="2" description="agent disconnect from monitor server by network,will reconnect in 5 minutes...."/>                                       
+     <item code="4606" level="2" description="monitor is reconnecting...."/>    
+     <item code="4607" level="2" description="monitor can't be connected with server by network,please contact to admin"/> 
+	 <item code="4608" level="2" description="monitor reconnect success,it works"/> 
+	 <!--AgentCtrl :4700-4799-->
+	 	 
+   </Error>
+  
+</CINVCCBAR>

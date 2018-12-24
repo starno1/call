@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<CINVCCBAR ver="1.0.0">
+  <Error><!--level 0:一般性错误,可以忽略 1:错误,需要发送给CRM 2:严重错误,自己提示-->
+     <item code="2100" level="0" description="消息未定义"/>
+	 <item code="2101" level="2" description="消息参数异常"/>
+	 <item code="2102" level="2" description="消息发送失败"/>
+	 <item code="2110" level="2" description="座席不存在"/>
+	 <item code="2111" level="2" description="座席暂停使用"/>
+	 <item code="2112" level="2" description="座席密码验证错误"/>
+	 <item code="2113" level="2" description="座席密码未生效"/>
+	 <item code="2114" level="2" description="座席密码已过期"/>
+	 <item code="2115" level="2" description="座席已锁定"/>
+	 <item code="2116" level="2" description="座席时间戳不匹配"/>
+	 <item code="2117" level="2" description="座席登录分机和绑定分机不匹配"/>
+	 <item code="2118" level="2" description="座席所用分机已被其他座席登录"/>
+	 <item code="2119" level="1" description="座席已登录"/>
+	 <item code="2120" level="2" description="座席不允许被替代"/>
+	 <item code="2121" level="1" description="座席未登录"/>
+	 <item code="2122" level="1" description="座席忙"/>
+	 <item code="2123" level="2" description="登录失败：此座席已在其他地方登录且正在通话中"/>
+	 <item code="2124" level="2" description="登录失败：此座席已在其他地方登录且后处理中"/>
+	 <item code="2125" level="1" description="座席未空闲"/>
+	 <item code="2126" level="1" description="座席未接通"/>
+	 <item code="2130" level="2" description="对方座席不存在"/>
+	 <item code="2131" level="2" description="对方座席暂停使用"/>
+	 <item code="2132" level="2" description="对方座席已锁定"/>
+	 <item code="2133" level="2" description="对方座席分机未设置"/>
+	 <item code="2134" level="1" description="对方座席未登录"/>
+	 <item code="2135" level="1" description="对方座席忙"/>
+	 <item code="2136" level="1" description="对方座席通话中"/>
+	 <item code="2137" level="1" description="对方座席后处理中"/>
+	 <item code="2138" level="1" description="对方座席空闲"/>
+	 <item code="2140" level="1" description="分机通话中"/>
+	 <item code="2141" level="2" description="分机未设置IVR服务"/>
+	 <item code="2143" level="2" description="坐席登录达到最大限制"/>
+	 <item code="2300" level="2" description="座席登录质检服务验证错误"/>
+
+	 <!--CINNGCCA :4000-4299-->
+     <item code="4000" level="2" description="创建A服务类失败!"/>
+     <item code="4001" level="2" description="CTI Interface服务器地址错误或者没有启动!"/> 
+     <item code="4002" level="2" description="CTI服务器地址错误或者没有启动!"/>  
+     <item code="4003" level="2" description="CTI Interface的Initail方法调用失败!"/>
+     <item code="4004" level="2" description="登录CTI服务器失败,确认CTI可用或者配置信息是否成功!"/>
+     <item code="4005" level="2" description="由于网络原因座席和CTI断开，请不要挂机，10S后重新连接!"/> 
+     <item code="4006" level="2" description="座席正在重连..."/>                  
+     <item code="4007" level="0" description="重连成功,座席就绪可以重新使用!"/>    
+     <item code="4008" level="2" description="由于某些原因网络中断,导致座席和CTI服务器断开,请和管理员联系!"/>        	 
+     <item code="4009" level="2" description="心跳检测到CTI中座席已经退出!"/>        	 
+	 <item code="4010" level="1" description="座席设置的phoneType类型和服务器端设置不一样，使用服务器端设置的电话类型"/>        	 
+
+	 <!--CINVCCBAR :4300-4599-->
+     <item code="4300" level="2" description="A接口控件没有注册或者路径不对!"/> 
+     <item code="4301" level="2" description="PA控件没有注册或者路径不对!"/> 
+     <item code="4302" level="2" description="M控件没有注册或者路径不对!"/>  
+     <item code="4303" level="2" description="CTI服务器断开,请与管理员联系!"/> 
+     <item code="4305" level="2" description="本座席被其他终端所替代!"/>    
+     <item code="4309" level="2" description="电话注册失败!"/>    
+     <item code="4310" level="2" description="请初始化控件!"/>    
+     <item code="4311" level="2" description="命令不可用,无法执行!"/>    
+     <item code="4312" level="2" description="目标号码不能为空!"/>    
+     <item code="4313" level="2" description="目标号码不合法!"/>    
+     <item code="4314" level="2" description="目标号码不能超过64位"/>    
+	 
+
+     <item code="4360" level="0" description="正在注册Sip电话..."/>   
+     <item code="4361" level="0" description="电话注册成功!"/>         
+     <item code="4362" level="0" description="正在检测到座席卡..."/>     
+     <item code="4363" level="2" description="没有检测到座席卡!"/>     
+     <item code="4364" level="1" description="设置ftp服务器信息失败!"/>   
+    
+     <item code="4400" level="0" description="签入CTI服务器成功!"/>    
+     <item code="4401" level="2" description="签入CTI服务器失败!"/>       
+     <item code="4402" level="0" description="签出CTI服务器成功!"/>         
+     <item code="4403" level="0" description="签出CTI服务器失败!"/>                     
+     <item code="4404" level="2" description="座席被强制迁出!"/>                    
+     <item code="4405" level="2" description="座席已经被锁定,请联系质检席解锁!"/>    
+     <item code="4407" level="1" description="正在向CTI服务器注册..."/>            
+     <item code="4408" level="0" description="正在向Monitor服务器注册..."/>        
+     <item code="4409" level="0" description="注册Monitor成功!"/>            
+     <item code="4410" level="0" description="电话条初始化成功!"/>    
+     <item code="4411" level="2" description="电话条初始化失败!"/>   
+     <item code="4412" level="0" description="正在向备用CTI服务器注册..."/>   
+     <item code="4413" level="0" description="正在向备用Monitor服务器注册..."/>  
+     <item code="4414" level="2" description="座席子状态报告"/>   	 
+	 
+    
+     <item code="4450" level="0" description="座席已经被拦截!"/>       
+     <item code="4451" level="1" description="没有要被接回的对象!"/>      
+     <item code="4452" level="1" description="外呼必须忙碌下才能进行!"/>      
+     <item code="4453" level="1" description="没有通话,不能转移..."/>                  
+     <item code="4454" level="1" description="只有两个人通话的时候才能执行此命令..."/>    
+     <item code="4455" level="1" description="普通状态下,二次拨号码必须在0-15之间!"/>    
+     <item code="4456" level="1" description="用户已挂机!"/>                  
+     <item code="4457" level="1" description="请快点服务,所有坐席都忙碌!"/> 
+     <item code="4458" level="1" description="Mute必须通话下才能进行!"/>  	 
+	 <item code="4459" level="2" description="客户端接通yealink话机的失败!"/>  	
+     <item code="4460" level="1" description="会议或者咨询时不能挂断主控座席！"/>  	 		 
+	 
+	 
+	 <!--CINMonitor :4600-4699-->
+     <item code="4600" level="2" description="创建M服务类失败!"/>                       
+     <item code="4601" level="2" description="Monitor Interface的Initail方法调用失败!"/> 
+     <item code="4602" level="2" description="Monitor服务器地址错误或者没有启动!"/>            
+     <item code="4603" level="2" description="Monitor Interface服务器地址错误或者没有启动!"/>
+     <item code="4604" level="2" description="登录(Login)Monitor服务器失败!"/>               
+     <item code="4605" level="2" description="由于某些原因网络中断,导致Monitor和服务器断开,10后重新连接...."/>                                       
+     <item code="4606" level="2" description="Monitor正在和服务器重新连接...."/>    
+     <item code="4607" level="2" description="由于某些原因网络中断,导致Monitor和服务器断开,请和管理员联系!"/> 
+	 <item code="4608" level="2" description="Monitor重连成功,监控座席就绪可以重新使用!"/> 
+	 <!--AgentCtrl :4700-4799-->
+	 	 
+   </Error>
+  
+</CINVCCBAR>
